@@ -42,14 +42,15 @@ body {
   width: 100%;
   height: 100%; /* For at least Firefox */
   min-height: 100%;
-  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
 }
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
-    background-image: url( '../img/home/oxbow_at_night.jpg' );
-    background-size: cover;
+  background-image: url( '../img/home/oxbow_at_night.jpg' );
+  background-size: cover;
+  -webkit-box-shadow: inset 0 0 400px rgba(0,0,0,1);
+          box-shadow: inset 0 0 400px rgba(0,0,0,1);
+
 }
 .cover-container {
   margin-right: auto;
@@ -114,7 +115,7 @@ body {
 
 .cover {
   padding: 0 20px;
-  margin-top: 300px;
+  margin-top: 33%;
 }
 .cover .btn-lg {
   padding: 10px 20px;
