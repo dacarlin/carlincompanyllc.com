@@ -2,6 +2,12 @@
  * Globals
  */
 
+
+p.lead {
+  font-size: 200%;
+
+}
+
 /* Links */
 a,
 a:focus,
